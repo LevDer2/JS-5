@@ -28,7 +28,7 @@ switch (opinion) {
 const workingDay = "Working day";
 const dayWeekend = "Weekend";
 const numberplease = "The wrong number"
-const choooseDay = Number(prompt(`What day is it today 1 ${workingDay} 2 ${dayWeekend}`));
+const choooseDay = Number(prompt(`Write the number of 1-7 and say what the time of the day the ${workingDay} or ${dayWeekend}`));
 
 switch (choooseDay) {
     case 1:
@@ -36,8 +36,28 @@ switch (choooseDay) {
         break;
 
         case 2:
+            alert(`Today is ${workingDay}`)
+            break;
+
+            case 3:
+                alert(`Today is ${workingDay}`)
+                break;
+
+                case 4:
+                alert(`Today is ${workingDay}`)
+                break;
+
+                case 5:
+                alert(`Today is ${workingDay}`)
+                break;
+
+        case 6:
         alert(`Today is ${dayWeekend}`)
         break;
+
+        case 7:
+            alert(`Today is ${dayWeekend}`)
+            break;
 
     default:
         alert(`${numberplease}`);
